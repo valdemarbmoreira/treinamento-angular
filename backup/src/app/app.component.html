@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>Header</h1>
+  <div>
+    <button routerLink="/mod01">Ir a Módulo 01</button>
+    <button [routerLink]="['/mod02', '20']">Ir a Módulo 02</button>
+  </div>
+  <router-outlet></router-outlet>
+  <!-- <tt-test></tt-test>
+  <hr>
+  <tt-one-way></tt-one-way>
+  <hr>
+  <tt-input [contador]="200"></tt-input>
+  <hr>
+  <tt-two-way></tt-two-way>
+  <hr>
+  <p>{{message}}</p>
+  <tt-output (mensagemEmitida)="mensagemEmitidaPeloFilho($event)"></tt-output>
+  <hr>
+  <tt-attribute></tt-attribute>
+  <hr>
+  <tt-structural></tt-structural>
+  <hr>
+  <p class="hightlight">Diretiva customizada</p>
+  <div ttCustom class="hightlight">Mouse sobre mim para destacar</div> -->
+  <tt-movie></tt-movie>
+</div>

@@ -1,0 +1,18 @@
+<div *ngIf="showM">Conteúdo exibido se a condição for verdadeira</div>
+<button (click)="showMessage()" type="button"> Clique para mostrar a mensagem</button>
+<br>
+<h2>Lista de Usuários</h2>
+<ul>
+  <li *ngFor="let user of users">{{ user.name }} - {{ user.email }}</li>
+</ul>
+
+<br>
+<div [ngSwitch]="choice">
+    <div *ngSwitchCase="'A'">Você escolheu a opção A</div>
+    <div *ngSwitchCase="'B'">Você escolheu a opção B</div>
+    <div *ngSwitchCase="'C'">Você escolheu a opção C</div>
+    <div *ngSwitchDefault>Escolha uma opção</div>
+  </div>
+  <button (click)="changeChoice('A')">Escolher A</button>
+  <button (click)="changeChoice('B')">Escolher B</button>
+  <button (click)="changeChoice('C')">Escolher C</button>

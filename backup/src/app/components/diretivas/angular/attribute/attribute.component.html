@@ -1,0 +1,10 @@
+<p>Diretiva de atributo</p>
+
+<div class="container" [ngClass]="{'enable': enabled, 'disable': !enabled}">
+    <p>{{enabled ? 'ativo' : 'inativo'}}</p>
+</div>
+
+
+<div [ngStyle]="{ 'font-size.px': fontSize, 'color': colorText }">Texto com Estilo Dinâmico</div>
+
+<button type="button" (click)="actionButton()">{{enabled ? 'ativo' : 'inativo'}}</button>

@@ -1,0 +1,15 @@
+<h1>Filmes</h1>
+<table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Ano</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let movie of movies">
+        <td>{{ movie.name | uppercase | require}}</td>
+        <td>{{ movie.year }}</td>
+      </tr>
+    </tbody>
+  </table>
