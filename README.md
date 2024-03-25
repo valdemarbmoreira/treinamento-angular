@@ -4,8 +4,7 @@
 Para criar um novo projeto 
 
 ```
-ng new nome-do-seu-projeto --style=less --no-standalone
-
+ng new nome-do-projeto --style=less --no-standalone
 ```
 
 Para rodar 
