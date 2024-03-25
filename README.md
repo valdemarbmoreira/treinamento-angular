@@ -59,7 +59,7 @@ Para criar um nova interface
 ng g m novo-modulo
 ```
 
-## Criar um novo modulo 
+## Criar um novo modulo routing
 
 Para criar um nova interface
 
