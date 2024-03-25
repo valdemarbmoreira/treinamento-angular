@@ -4,7 +4,9 @@
 Para criar um novo projeto 
 
 ```
-ng new nome-do-seu-projeto --style=less
+ng new nome-do-seu-projeto --style=less --no-standalone
+![image](https://github.com/valdemarbmoreira/treinamento-angular/assets/11737014/5b5567bb-25c2-4cfd-99b6-68c4a92858e5)
+
 ```
 
 Para rodar 
